@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PersonTest" time="0.362" tests="7" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PersonTest" time="0.356" tests="7" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="19.0.1"/>
@@ -61,7 +61,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testPerson" classname="PersonTest" time="0.011">
+  <testcase name="testPerson" classname="PersonTest" time="0.01">
     <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
 	at PersonTest.testPerson(PersonTest.java:23)
 </failure>
@@ -75,16 +75,16 @@
     <system-out><![CDATA[true
 ]]></system-out>
   </testcase>
-  <testcase name="testPerson" classname="PersonTest" time="0">
-    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
-	at PersonTest.testPerson(PersonTest.java:23)
-</failure>
-    <system-out><![CDATA[true
-]]></system-out>
-  </testcase>
-  <testcase name="testPerson" classname="PersonTest" time="0"/>
-  <testcase name="testPerson" classname="PersonTest" time="0"/>
   <testcase name="testPerson" classname="PersonTest" time="0.001">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at PersonTest.testPerson(PersonTest.java:23)
+</failure>
+    <system-out><![CDATA[true
+]]></system-out>
+  </testcase>
+  <testcase name="testPerson" classname="PersonTest" time="0"/>
+  <testcase name="testPerson" classname="PersonTest" time="0"/>
+  <testcase name="testPerson" classname="PersonTest" time="0">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at PersonTest.testPerson(PersonTest.java:23)
 </failure>

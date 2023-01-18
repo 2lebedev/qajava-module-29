@@ -19,7 +19,6 @@ Object[][] ageDataProvider() {
 @Test (dataProvider = "ageDataProvider")
     public void testPerson (int age, boolean expected) {
         boolean result = Person.isTeenager(age);
-        System.out.println(result);
         assertEquals(result, expected);
     }
 }
